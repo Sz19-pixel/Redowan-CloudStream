@@ -39,7 +39,7 @@ import com.lagradost.cloudstream3.utils.newExtractorLink
 
 
 class FzMoviesProvider : MainAPI() { // all providers must be an instance of MainAPI
-    override var mainUrl = "https://fzmovies.net"
+    override var mainUrl = "https://fzmovies.live"
     override var name = "FzMovies"
     override val supportedTypes = setOf(
         TvType.Movie,
